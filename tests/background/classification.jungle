@@ -1,0 +1,5 @@
+project.manifest = classification-manifest.xml
+base.sourcePath = ../../source;.
+base.resourcePath = ../../resources;../../resources-466
+base.excludeAnnotations = mip
+

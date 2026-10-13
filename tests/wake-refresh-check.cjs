@@ -1,0 +1,18 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const data=fs.readFileSync('source/FourthData.mc','utf8');
+const view=fs.readFileSync('source/FourthView.mc','utf8');
+const body=data.split('function canReuseWake(date) {')[1].split('\n    }')[0];
+const reuse=new Function('lastUpdate','nowValue','metricsDay','sunZone','zone','date',`const nowSeconds=()=>nowValue; const System={getClockTime:()=>({timeZoneOffset:zone})}; ${body}`);
+const date={year:2026,month:10,day:7};
+assert(reuse(1000,1011,20261007,28800,28800,date));
+assert(reuse(1000,1299,20261007,28800,28800,date));
+for(const args of [[0,10,20261007,28800,28800],[1000,1300,20261007,28800,28800],[1000,999,20261007,28800,28800],[1000,1011,20261006,28800,28800],[1000,1011,20261007,0,28800]]) assert(!reuse(...args,date));
+const section=view.split('        var deferRefresh=')[1].split('        drawActive')[0];
+const step=new Function('wakeFramePending','eligible',`var reads=0,expires=0;var date={};var data={canReuseWake:()=>eligible,nowSeconds:()=>1011,expireWeather:()=>expires++,expireMetrics:()=>expires++,update:()=>reads++};var deferRefresh=${section};return {wakeFramePending,reads,expires};`);
+assert.deepEqual(step(true,true),{wakeFramePending:false,reads:0,expires:2});
+assert.equal(step(false,true).reads,1);
+assert.equal(step(true,false).reads,1);
+assert(view.includes('options.reload(); fontChinese=null; wakeFramePending=false;'));
+const sleep=view.split('function onEnterSleep() {')[1].split('\n    }')[0];
+assert(!sleep.includes('shortIcons ='));assert(sleep.includes('landscape.releaseGraphics()'));
+console.log('PASS: recent wake, next frame, cold start, midnight, stale cache, time rollback, timezone, settings, icon retention and graphics release. Host logic checks; not device timing.');

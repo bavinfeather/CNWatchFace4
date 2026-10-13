@@ -1,0 +1,31 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="icon.png"/>
+    <bitmap id="LandscapeMoon0" filename="moon/phase-00.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon1" filename="moon/phase-01.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon2" filename="moon/phase-02.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon3" filename="moon/phase-03.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon4" filename="moon/phase-04.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon5" filename="moon/phase-05.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon6" filename="moon/phase-06.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon7" filename="moon/phase-07.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon8" filename="moon/phase-08.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon9" filename="moon/phase-09.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon10" filename="moon/phase-10.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon11" filename="moon/phase-11.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon12" filename="moon/phase-12.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon13" filename="moon/phase-13.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon14" filename="moon/phase-14.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon15" filename="moon/phase-15.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon16" filename="moon/phase-16.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon17" filename="moon/phase-17.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon18" filename="moon/phase-18.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon19" filename="moon/phase-19.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon20" filename="moon/phase-20.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon21" filename="moon/phase-21.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon22" filename="moon/phase-22.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon23" filename="moon/phase-23.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon24" filename="moon/phase-24.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon25" filename="moon/phase-25.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon26" filename="moon/phase-26.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="LandscapeMoon27" filename="moon/phase-27.png" dithering="none" automaticPalette="false"/>
+</drawables>

@@ -1,0 +1,27 @@
+<properties>
+    <property id="Language" type="number">0</property>
+    <property id="ShowDate" type="boolean">true</property>
+    <property id="DateStyle" type="number">0</property>
+    <property id="ShowWeatherText" type="boolean">true</property>
+    <property id="TimeFormat" type="number">0</property>
+    <property id="LeadingZero" type="boolean">true</property>
+    <property id="ShowSecondsActive" type="boolean">false</property>
+    <property id="ShowAmPm" type="boolean">true</property>
+    <property id="TemperatureUnit" type="number">0</property>
+    <property id="ShowTemperatureUnit" type="boolean">true</property>
+    <property id="ElevationUnit" type="number">0</property>
+    <property id="FieldUpperShort" type="number">5</property>
+    <property id="FieldTop" type="number">1</property>
+    <property id="FieldMiddle" type="number">2</property>
+    <property id="FieldBottom" type="number">3</property>
+    <property id="FieldLowerShort" type="number">6</property>
+    <property id="HourColor" type="number">-1</property>
+    <property id="MinuteColor" type="number">-1</property>
+    <property id="FieldLabelColor" type="number">-1</property>
+    <property id="FieldValueColor" type="number">-1</property>
+    <property id="DateColor" type="number">-1</property>
+    <property id="WeatherColor" type="number">-1</property>
+    <property id="BatteryColor" type="number">-1</property>
+    <property id="SecondaryColor" type="number">-1</property>
+    <property id="LicenseKey" type="string" />
+</properties>

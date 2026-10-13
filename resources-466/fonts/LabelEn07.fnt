@@ -1,0 +1,44 @@
+info face="Barlow Condensed SemiBold" size=22 bold=1 italic=0 unicode=1 smooth=1 aa=4
+common lineHeight=22 base=22 scaleW=448 scaleH=72 pages=1 packed=0
+page id=0 file="LabelEn07.png"
+chars count=40
+char id=48 x=0 y=0 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=49 x=28 y=0 width=9 height=22 xoffset=0 yoffset=0 xadvance=8 page=0 chnl=15
+char id=50 x=56 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=51 x=84 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=52 x=112 y=0 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=53 x=140 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=54 x=168 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=55 x=196 y=0 width=13 height=22 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=15
+char id=56 x=224 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=57 x=252 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=46 x=280 y=0 width=7 height=22 xoffset=0 yoffset=0 xadvance=6 page=0 chnl=15
+char id=45 x=308 y=0 width=11 height=22 xoffset=0 yoffset=0 xadvance=10 page=0 chnl=15
+char id=107 x=336 y=0 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=102 x=364 y=0 width=10 height=22 xoffset=0 yoffset=0 xadvance=9 page=0 chnl=15
+char id=116 x=392 y=0 width=10 height=22 xoffset=0 yoffset=0 xadvance=9 page=0 chnl=15
+char id=109 x=420 y=0 width=21 height=22 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=15
+char id=104 x=0 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=37 x=28 y=24 width=25 height=22 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15
+char id=83 x=56 y=24 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=84 x=84 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=69 x=112 y=24 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=80 x=140 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=66 x=168 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=65 x=196 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=76 x=224 y=24 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=82 x=252 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=67 x=280 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=79 x=308 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=86 x=336 y=24 width=16 height=22 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
+char id=89 x=364 y=24 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=85 x=392 y=24 width=16 height=22 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
+char id=68 x=420 y=24 width=16 height=22 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15
+char id=73 x=0 y=48 width=8 height=22 xoffset=0 yoffset=0 xadvance=7 page=0 chnl=15
+char id=78 x=28 y=48 width=17 height=22 xoffset=0 yoffset=0 xadvance=16 page=0 chnl=15
+char id=87 x=56 y=48 width=21 height=22 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=15
+char id=77 x=84 y=48 width=18 height=22 xoffset=0 yoffset=0 xadvance=17 page=0 chnl=15
+char id=70 x=112 y=48 width=14 height=22 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=15
+char id=71 x=140 y=48 width=15 height=22 xoffset=0 yoffset=0 xadvance=14 page=0 chnl=15
+char id=47 x=168 y=48 width=13 height=22 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=15
+char id=72 x=196 y=48 width=16 height=22 xoffset=0 yoffset=0 xadvance=15 page=0 chnl=15

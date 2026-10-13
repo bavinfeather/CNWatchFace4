@@ -1,0 +1,8 @@
+<drawables>
+    <bitmap id="ShortSteps" filename="short-fields/footprints.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="ShortBody" filename="short-fields/battery-plus.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="ShortAltitude" filename="short-fields/mountain.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="ShortBattery" filename="short-fields/battery.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="ShortStress" filename="short-fields/activity.png" dithering="none" automaticPalette="false"/>
+    <bitmap id="ShortRecovery" filename="short-fields/timer.png" dithering="none" automaticPalette="false"/>
+</drawables>

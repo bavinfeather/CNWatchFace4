@@ -1,0 +1,11 @@
+project.manifest = lifecycle-manifest.xml
+base.sourcePath = ../../source;.
+base.resourcePath = ../../resources
+fenix9pro51mm.resourcePath = $(base.resourcePath);../../resources-466
+fenix9pro51mm.excludeAnnotations = mip
+fr265s.resourcePath = $(base.resourcePath);../../resources-360
+fr265s.excludeAnnotations = mip
+venu2.resourcePath = $(base.resourcePath);../../resources-416
+venu2.excludeAnnotations = mip
+fr255.resourcePath = $(base.resourcePath);../../resources-260
+fr255.excludeAnnotations = amoled

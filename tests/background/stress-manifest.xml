@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+<iq:application id="c0a94512ce684c7c8b215ddf1d932ad0" entry="BackgroundStressApp" name="@Strings.AppName" launcherIcon="@Drawables.LauncherIcon" type="watchface" minApiLevel="4.2.2" version="0.1.0">
+<iq:products><iq:product id="fenix9pro51mm"/></iq:products>
+<iq:permissions><iq:uses-permission id="Positioning"/><iq:uses-permission id="ComplicationSubscriber"/></iq:permissions>
+<iq:languages><iq:language>eng</iq:language><iq:language>zhs</iq:language></iq:languages><iq:barrels/>
+</iq:application></iq:manifest>
+
+
+

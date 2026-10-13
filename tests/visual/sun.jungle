@@ -1,0 +1,6 @@
+project.manifest = sun-manifest.xml
+base.sourcePath = ../../source;.
+base.resourcePath = ../../resources
+base.lang.zhs = ../../resources-zhs
+fenix9pro51mm.resourcePath = $(base.resourcePath);../../resources-466
+base.excludeAnnotations = mip;night

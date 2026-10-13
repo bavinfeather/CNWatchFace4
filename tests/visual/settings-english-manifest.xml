@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+<iq:application id="8a8b7bd8d90546d8af4d96ae32f5374b" entry="SettingsEnglishPreviewApp" name="@Strings.AppName" launcherIcon="@Drawables.LauncherIcon" type="watchface" minApiLevel="4.2.2" version="0.1.0">
+<iq:products><iq:product id="fenix9pro51mm"/><iq:product id="fr265s"/></iq:products>
+<iq:permissions><iq:uses-permission id="Positioning"/><iq:uses-permission id="ComplicationSubscriber"/></iq:permissions>
+<iq:languages><iq:language>eng</iq:language><iq:language>zhs</iq:language></iq:languages><iq:barrels/>
+</iq:application></iq:manifest>
+

@@ -1,0 +1,182 @@
+<strings>
+    <string id="AppName">几何峡谷cyn4</string>
+    <string id="LanguageTitle" scope="settings">Face language</string>
+    <string id="LanguageOpt0" scope="settings">Follow watch</string>
+    <string id="LanguageOpt1" scope="settings">Chinese</string>
+    <string id="LanguageOpt2" scope="settings">English</string>
+    <string id="ShowDateTitle" scope="settings">Show date</string>
+    <string id="DateStyleTitle" scope="settings">Date format</string>
+    <string id="DateStyleOpt0" scope="settings">Weekday &amp; day</string>
+    <string id="DateStyleOpt1" scope="settings">Month/day</string>
+    <string id="DateStyleOpt2" scope="settings">Weekday &amp; month/day</string>
+    <string id="ShowWeatherTextTitle" scope="settings">Weather beside temperature</string>
+    <string id="TimeFormatTitle" scope="settings">12/24 hour</string>
+    <string id="TimeFormatOpt0" scope="settings">Follow watch</string>
+    <string id="TimeFormatOpt1" scope="settings">12 hour</string>
+    <string id="TimeFormatOpt2" scope="settings">24 hour</string>
+    <string id="LeadingZeroTitle" scope="settings">Leading hour zero</string>
+    <string id="ShowSecondsActiveTitle" scope="settings">Seconds while awake</string>
+    <string id="ShowAmPmTitle" scope="settings">AM/PM in 12-hour mode</string>
+    <string id="TemperatureUnitTitle" scope="settings">Temperature unit</string>
+    <string id="TemperatureUnitOpt0" scope="settings">Follow watch</string>
+    <string id="TemperatureUnitOpt1" scope="settings">Celsius °C</string>
+    <string id="TemperatureUnitOpt2" scope="settings">Fahrenheit °F</string>
+    <string id="ShowTemperatureUnitTitle" scope="settings">Show C/F unit</string>
+    <string id="ElevationUnitTitle" scope="settings">Elevation unit</string>
+    <string id="ElevationUnitOpt0" scope="settings">Follow watch</string>
+    <string id="ElevationUnitOpt1" scope="settings">Meters</string>
+    <string id="ElevationUnitOpt2" scope="settings">Feet</string>
+    <string id="FieldUpperShortTitle" scope="settings">Upper compact field</string>
+    <string id="FieldUpperShortOpt0" scope="settings">Off</string>
+    <string id="FieldUpperShortOpt1" scope="settings">Steps</string>
+    <string id="FieldUpperShortOpt2" scope="settings">Body Battery</string>
+    <string id="FieldUpperShortOpt3" scope="settings">Elevation</string>
+    <string id="FieldUpperShortOpt4" scope="settings">Battery</string>
+    <string id="FieldUpperShortOpt5" scope="settings">Stress</string>
+    <string id="FieldUpperShortOpt6" scope="settings">Recovery time</string>
+    <string id="FieldTopTitle" scope="settings">Top main field</string>
+    <string id="FieldTopOpt0" scope="settings">Off</string>
+    <string id="FieldTopOpt1" scope="settings">Steps</string>
+    <string id="FieldTopOpt2" scope="settings">Body Battery</string>
+    <string id="FieldTopOpt3" scope="settings">Elevation</string>
+    <string id="FieldTopOpt4" scope="settings">Battery</string>
+    <string id="FieldTopOpt5" scope="settings">Stress</string>
+    <string id="FieldTopOpt6" scope="settings">Recovery time</string>
+    <string id="FieldMiddleTitle" scope="settings">Middle main field</string>
+    <string id="FieldMiddleOpt0" scope="settings">Off</string>
+    <string id="FieldMiddleOpt1" scope="settings">Steps</string>
+    <string id="FieldMiddleOpt2" scope="settings">Body Battery</string>
+    <string id="FieldMiddleOpt3" scope="settings">Elevation</string>
+    <string id="FieldMiddleOpt4" scope="settings">Battery</string>
+    <string id="FieldMiddleOpt5" scope="settings">Stress</string>
+    <string id="FieldMiddleOpt6" scope="settings">Recovery time</string>
+    <string id="FieldBottomTitle" scope="settings">Bottom main field</string>
+    <string id="FieldBottomOpt0" scope="settings">Off</string>
+    <string id="FieldBottomOpt1" scope="settings">Steps</string>
+    <string id="FieldBottomOpt2" scope="settings">Body Battery</string>
+    <string id="FieldBottomOpt3" scope="settings">Elevation</string>
+    <string id="FieldBottomOpt4" scope="settings">Battery</string>
+    <string id="FieldBottomOpt5" scope="settings">Stress</string>
+    <string id="FieldBottomOpt6" scope="settings">Recovery time</string>
+    <string id="FieldLowerShortTitle" scope="settings">Lower compact field</string>
+    <string id="FieldLowerShortOpt0" scope="settings">Off</string>
+    <string id="FieldLowerShortOpt1" scope="settings">Steps</string>
+    <string id="FieldLowerShortOpt2" scope="settings">Body Battery</string>
+    <string id="FieldLowerShortOpt3" scope="settings">Elevation</string>
+    <string id="FieldLowerShortOpt4" scope="settings">Battery</string>
+    <string id="FieldLowerShortOpt5" scope="settings">Stress</string>
+    <string id="FieldLowerShortOpt6" scope="settings">Recovery time</string>
+    <string id="HourColorTitle" scope="settings">Hour color</string>
+    <string id="HourColorOpt0" scope="settings">Automatic</string>
+    <string id="HourColorOpt1" scope="settings">Off-white</string>
+    <string id="HourColorOpt2" scope="settings">White</string>
+    <string id="HourColorOpt3" scope="settings">Blue-gray</string>
+    <string id="HourColorOpt4" scope="settings">Ice blue</string>
+    <string id="HourColorOpt5" scope="settings">Warm apricot</string>
+    <string id="HourColorOpt6" scope="settings">Orange</string>
+    <string id="HourColorOpt7" scope="settings">Mint</string>
+    <string id="HourColorOpt8" scope="settings">Lavender</string>
+    <string id="HourColorOpt9" scope="settings">Rose</string>
+    <string id="HourColorOpt10" scope="settings">Yellow</string>
+    <string id="HourColorOpt11" scope="settings">Blue</string>
+    <string id="HourColorOpt12" scope="settings">Black</string>
+    <string id="MinuteColorTitle" scope="settings">Minute color</string>
+    <string id="MinuteColorOpt0" scope="settings">Automatic</string>
+    <string id="MinuteColorOpt1" scope="settings">Off-white</string>
+    <string id="MinuteColorOpt2" scope="settings">White</string>
+    <string id="MinuteColorOpt3" scope="settings">Blue-gray</string>
+    <string id="MinuteColorOpt4" scope="settings">Ice blue</string>
+    <string id="MinuteColorOpt5" scope="settings">Warm apricot</string>
+    <string id="MinuteColorOpt6" scope="settings">Orange</string>
+    <string id="MinuteColorOpt7" scope="settings">Mint</string>
+    <string id="MinuteColorOpt8" scope="settings">Lavender</string>
+    <string id="MinuteColorOpt9" scope="settings">Rose</string>
+    <string id="MinuteColorOpt10" scope="settings">Yellow</string>
+    <string id="MinuteColorOpt11" scope="settings">Blue</string>
+    <string id="MinuteColorOpt12" scope="settings">Black</string>
+    <string id="FieldLabelColorTitle" scope="settings">Field label &amp; unit color</string>
+    <string id="FieldLabelColorOpt0" scope="settings">Automatic</string>
+    <string id="FieldLabelColorOpt1" scope="settings">Off-white</string>
+    <string id="FieldLabelColorOpt2" scope="settings">White</string>
+    <string id="FieldLabelColorOpt3" scope="settings">Blue-gray</string>
+    <string id="FieldLabelColorOpt4" scope="settings">Ice blue</string>
+    <string id="FieldLabelColorOpt5" scope="settings">Warm apricot</string>
+    <string id="FieldLabelColorOpt6" scope="settings">Orange</string>
+    <string id="FieldLabelColorOpt7" scope="settings">Mint</string>
+    <string id="FieldLabelColorOpt8" scope="settings">Lavender</string>
+    <string id="FieldLabelColorOpt9" scope="settings">Rose</string>
+    <string id="FieldLabelColorOpt10" scope="settings">Yellow</string>
+    <string id="FieldLabelColorOpt11" scope="settings">Blue</string>
+    <string id="FieldLabelColorOpt12" scope="settings">Black</string>
+    <string id="FieldValueColorTitle" scope="settings">Field value color</string>
+    <string id="FieldValueColorOpt0" scope="settings">Automatic</string>
+    <string id="FieldValueColorOpt1" scope="settings">Off-white</string>
+    <string id="FieldValueColorOpt2" scope="settings">White</string>
+    <string id="FieldValueColorOpt3" scope="settings">Blue-gray</string>
+    <string id="FieldValueColorOpt4" scope="settings">Ice blue</string>
+    <string id="FieldValueColorOpt5" scope="settings">Warm apricot</string>
+    <string id="FieldValueColorOpt6" scope="settings">Orange</string>
+    <string id="FieldValueColorOpt7" scope="settings">Mint</string>
+    <string id="FieldValueColorOpt8" scope="settings">Lavender</string>
+    <string id="FieldValueColorOpt9" scope="settings">Rose</string>
+    <string id="FieldValueColorOpt10" scope="settings">Yellow</string>
+    <string id="FieldValueColorOpt11" scope="settings">Blue</string>
+    <string id="FieldValueColorOpt12" scope="settings">Black</string>
+    <string id="DateColorTitle" scope="settings">Date color</string>
+    <string id="DateColorOpt0" scope="settings">Automatic</string>
+    <string id="DateColorOpt1" scope="settings">Off-white</string>
+    <string id="DateColorOpt2" scope="settings">White</string>
+    <string id="DateColorOpt3" scope="settings">Blue-gray</string>
+    <string id="DateColorOpt4" scope="settings">Ice blue</string>
+    <string id="DateColorOpt5" scope="settings">Warm apricot</string>
+    <string id="DateColorOpt6" scope="settings">Orange</string>
+    <string id="DateColorOpt7" scope="settings">Mint</string>
+    <string id="DateColorOpt8" scope="settings">Lavender</string>
+    <string id="DateColorOpt9" scope="settings">Rose</string>
+    <string id="DateColorOpt10" scope="settings">Yellow</string>
+    <string id="DateColorOpt11" scope="settings">Blue</string>
+    <string id="DateColorOpt12" scope="settings">Black</string>
+    <string id="WeatherColorTitle" scope="settings">Temperature &amp; weather color</string>
+    <string id="WeatherColorOpt0" scope="settings">Automatic</string>
+    <string id="WeatherColorOpt1" scope="settings">Off-white</string>
+    <string id="WeatherColorOpt2" scope="settings">White</string>
+    <string id="WeatherColorOpt3" scope="settings">Blue-gray</string>
+    <string id="WeatherColorOpt4" scope="settings">Ice blue</string>
+    <string id="WeatherColorOpt5" scope="settings">Warm apricot</string>
+    <string id="WeatherColorOpt6" scope="settings">Orange</string>
+    <string id="WeatherColorOpt7" scope="settings">Mint</string>
+    <string id="WeatherColorOpt8" scope="settings">Lavender</string>
+    <string id="WeatherColorOpt9" scope="settings">Rose</string>
+    <string id="WeatherColorOpt10" scope="settings">Yellow</string>
+    <string id="WeatherColorOpt11" scope="settings">Blue</string>
+    <string id="WeatherColorOpt12" scope="settings">Black</string>
+    <string id="BatteryColorTitle" scope="settings">Battery arc color</string>
+    <string id="BatteryColorOpt0" scope="settings">Automatic</string>
+    <string id="BatteryColorOpt1" scope="settings">Off-white</string>
+    <string id="BatteryColorOpt2" scope="settings">White</string>
+    <string id="BatteryColorOpt3" scope="settings">Blue-gray</string>
+    <string id="BatteryColorOpt4" scope="settings">Ice blue</string>
+    <string id="BatteryColorOpt5" scope="settings">Warm apricot</string>
+    <string id="BatteryColorOpt6" scope="settings">Orange</string>
+    <string id="BatteryColorOpt7" scope="settings">Mint</string>
+    <string id="BatteryColorOpt8" scope="settings">Lavender</string>
+    <string id="BatteryColorOpt9" scope="settings">Rose</string>
+    <string id="BatteryColorOpt10" scope="settings">Yellow</string>
+    <string id="BatteryColorOpt11" scope="settings">Blue</string>
+    <string id="BatteryColorOpt12" scope="settings">Black</string>
+    <string id="SecondaryColorTitle" scope="settings">Seconds &amp; AM/PM color</string>
+    <string id="SecondaryColorOpt0" scope="settings">Automatic</string>
+    <string id="SecondaryColorOpt1" scope="settings">Off-white</string>
+    <string id="SecondaryColorOpt2" scope="settings">White</string>
+    <string id="SecondaryColorOpt3" scope="settings">Blue-gray</string>
+    <string id="SecondaryColorOpt4" scope="settings">Ice blue</string>
+    <string id="SecondaryColorOpt5" scope="settings">Warm apricot</string>
+    <string id="SecondaryColorOpt6" scope="settings">Orange</string>
+    <string id="SecondaryColorOpt7" scope="settings">Mint</string>
+    <string id="SecondaryColorOpt8" scope="settings">Lavender</string>
+    <string id="SecondaryColorOpt9" scope="settings">Rose</string>
+    <string id="SecondaryColorOpt10" scope="settings">Yellow</string>
+    <string id="SecondaryColorOpt11" scope="settings">Blue</string>
+    <string id="SecondaryColorOpt12" scope="settings">Black</string>
+    <string id="LicenseKeyTitle" scope="settings">Unlock key</string>
+</strings>

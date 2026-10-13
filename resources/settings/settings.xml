@@ -1,0 +1,249 @@
+<settings>
+    <setting propertyKey="@Properties.Language" title="@Strings.LanguageTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.LanguageOpt0</listEntry>
+            <listEntry value="1">@Strings.LanguageOpt1</listEntry>
+            <listEntry value="2">@Strings.LanguageOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowDate" title="@Strings.ShowDateTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.DateStyle" title="@Strings.DateStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.DateStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.DateStyleOpt1</listEntry>
+            <listEntry value="2">@Strings.DateStyleOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowWeatherText" title="@Strings.ShowWeatherTextTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.TimeFormat" title="@Strings.TimeFormatTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.TimeFormatOpt0</listEntry>
+            <listEntry value="1">@Strings.TimeFormatOpt1</listEntry>
+            <listEntry value="2">@Strings.TimeFormatOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.LeadingZero" title="@Strings.LeadingZeroTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowSecondsActive" title="@Strings.ShowSecondsActiveTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowAmPm" title="@Strings.ShowAmPmTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.TemperatureUnit" title="@Strings.TemperatureUnitTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.TemperatureUnitOpt0</listEntry>
+            <listEntry value="1">@Strings.TemperatureUnitOpt1</listEntry>
+            <listEntry value="2">@Strings.TemperatureUnitOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowTemperatureUnit" title="@Strings.ShowTemperatureUnitTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ElevationUnit" title="@Strings.ElevationUnitTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ElevationUnitOpt0</listEntry>
+            <listEntry value="1">@Strings.ElevationUnitOpt1</listEntry>
+            <listEntry value="2">@Strings.ElevationUnitOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldUpperShort" title="@Strings.FieldUpperShortTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldUpperShortOpt0</listEntry>
+            <listEntry value="1">@Strings.FieldUpperShortOpt1</listEntry>
+            <listEntry value="2">@Strings.FieldUpperShortOpt2</listEntry>
+            <listEntry value="3">@Strings.FieldUpperShortOpt3</listEntry>
+            <listEntry value="4">@Strings.FieldUpperShortOpt4</listEntry>
+            <listEntry value="5">@Strings.FieldUpperShortOpt5</listEntry>
+            <listEntry value="6">@Strings.FieldUpperShortOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldTop" title="@Strings.FieldTopTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldTopOpt0</listEntry>
+            <listEntry value="1">@Strings.FieldTopOpt1</listEntry>
+            <listEntry value="2">@Strings.FieldTopOpt2</listEntry>
+            <listEntry value="3">@Strings.FieldTopOpt3</listEntry>
+            <listEntry value="4">@Strings.FieldTopOpt4</listEntry>
+            <listEntry value="5">@Strings.FieldTopOpt5</listEntry>
+            <listEntry value="6">@Strings.FieldTopOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldMiddle" title="@Strings.FieldMiddleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldMiddleOpt0</listEntry>
+            <listEntry value="1">@Strings.FieldMiddleOpt1</listEntry>
+            <listEntry value="2">@Strings.FieldMiddleOpt2</listEntry>
+            <listEntry value="3">@Strings.FieldMiddleOpt3</listEntry>
+            <listEntry value="4">@Strings.FieldMiddleOpt4</listEntry>
+            <listEntry value="5">@Strings.FieldMiddleOpt5</listEntry>
+            <listEntry value="6">@Strings.FieldMiddleOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldBottom" title="@Strings.FieldBottomTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldBottomOpt0</listEntry>
+            <listEntry value="1">@Strings.FieldBottomOpt1</listEntry>
+            <listEntry value="2">@Strings.FieldBottomOpt2</listEntry>
+            <listEntry value="3">@Strings.FieldBottomOpt3</listEntry>
+            <listEntry value="4">@Strings.FieldBottomOpt4</listEntry>
+            <listEntry value="5">@Strings.FieldBottomOpt5</listEntry>
+            <listEntry value="6">@Strings.FieldBottomOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldLowerShort" title="@Strings.FieldLowerShortTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldLowerShortOpt0</listEntry>
+            <listEntry value="1">@Strings.FieldLowerShortOpt1</listEntry>
+            <listEntry value="2">@Strings.FieldLowerShortOpt2</listEntry>
+            <listEntry value="3">@Strings.FieldLowerShortOpt3</listEntry>
+            <listEntry value="4">@Strings.FieldLowerShortOpt4</listEntry>
+            <listEntry value="5">@Strings.FieldLowerShortOpt5</listEntry>
+            <listEntry value="6">@Strings.FieldLowerShortOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.HourColor" title="@Strings.HourColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.HourColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.HourColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.HourColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.HourColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.HourColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.HourColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.HourColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.HourColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.HourColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.HourColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.HourColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.HourColorOpt11</listEntry>
+            <listEntry value="0">@Strings.HourColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.MinuteColor" title="@Strings.MinuteColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.MinuteColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.MinuteColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.MinuteColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.MinuteColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.MinuteColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.MinuteColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.MinuteColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.MinuteColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.MinuteColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.MinuteColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.MinuteColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.MinuteColorOpt11</listEntry>
+            <listEntry value="0">@Strings.MinuteColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldLabelColor" title="@Strings.FieldLabelColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.FieldLabelColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.FieldLabelColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.FieldLabelColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.FieldLabelColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.FieldLabelColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.FieldLabelColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.FieldLabelColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.FieldLabelColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.FieldLabelColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.FieldLabelColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.FieldLabelColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.FieldLabelColorOpt11</listEntry>
+            <listEntry value="0">@Strings.FieldLabelColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FieldValueColor" title="@Strings.FieldValueColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.FieldValueColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.FieldValueColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.FieldValueColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.FieldValueColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.FieldValueColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.FieldValueColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.FieldValueColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.FieldValueColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.FieldValueColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.FieldValueColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.FieldValueColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.FieldValueColorOpt11</listEntry>
+            <listEntry value="0">@Strings.FieldValueColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.DateColor" title="@Strings.DateColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.DateColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.DateColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.DateColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.DateColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.DateColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.DateColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.DateColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.DateColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.DateColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.DateColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.DateColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.DateColorOpt11</listEntry>
+            <listEntry value="0">@Strings.DateColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.WeatherColor" title="@Strings.WeatherColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.WeatherColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.WeatherColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.WeatherColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.WeatherColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.WeatherColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.WeatherColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.WeatherColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.WeatherColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.WeatherColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.WeatherColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.WeatherColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.WeatherColorOpt11</listEntry>
+            <listEntry value="0">@Strings.WeatherColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.BatteryColor" title="@Strings.BatteryColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.BatteryColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.BatteryColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.BatteryColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.BatteryColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.BatteryColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.BatteryColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.BatteryColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.BatteryColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.BatteryColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.BatteryColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.BatteryColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.BatteryColorOpt11</listEntry>
+            <listEntry value="0">@Strings.BatteryColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SecondaryColor" title="@Strings.SecondaryColorTitle">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.SecondaryColorOpt0</listEntry>
+            <listEntry value="15528177">@Strings.SecondaryColorOpt1</listEntry>
+            <listEntry value="16777215">@Strings.SecondaryColorOpt2</listEntry>
+            <listEntry value="10333883">@Strings.SecondaryColorOpt3</listEntry>
+            <listEntry value="9690088">@Strings.SecondaryColorOpt4</listEntry>
+            <listEntry value="16763553">@Strings.SecondaryColorOpt5</listEntry>
+            <listEntry value="16755285">@Strings.SecondaryColorOpt6</listEntry>
+            <listEntry value="8443572">@Strings.SecondaryColorOpt7</listEntry>
+            <listEntry value="11114728">@Strings.SecondaryColorOpt8</listEntry>
+            <listEntry value="16742280">@Strings.SecondaryColorOpt9</listEntry>
+            <listEntry value="16769911">@Strings.SecondaryColorOpt10</listEntry>
+            <listEntry value="4886754">@Strings.SecondaryColorOpt11</listEntry>
+            <listEntry value="0">@Strings.SecondaryColorOpt12</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.LicenseKey" title="@Strings.LicenseKeyTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+</settings>

@@ -1,0 +1,7 @@
+project.manifest = manifest.xml
+base.sourcePath = ../../source;.
+base.resourcePath = ../../resources
+base.lang.zhs = ../../resources-zhs
+fenix9pro51mm.resourcePath = $(base.resourcePath);../../resources-466
+fr265s.resourcePath = $(base.resourcePath);../../resources-360
+base.excludeAnnotations = mip;night
