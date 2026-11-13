@@ -195,16 +195,11 @@ import Toybox.Math;
     for(var i=0;i<dc.texts.size();i+=1) {
         var t=dc.texts[i];
         for(var field=0;field<3;field+=1) {
-            if(t[2].equals(values[field])) {
-                var unit=v.valueParts(v.data.fieldValue(v.fields[field],0))[1];
-                var width=dc.getTextWidthInPixels(t[2],t[4]);
-                if(!unit.equals("")) { width+=v.p(2)+dc.getTextWidthInPixels(unit,v.unitFont); }
-                xs.add(t[0]+width/2);
-            }
+            if(t[2].equals(values[field])) { xs.add(t[0]); }
         }
     }
     Test.assert(xs.size()==3);
-    for(var x=0;x<xs.size();x+=1) { Test.assert((xs[x]-v.p(213)).abs()<=1); }
+    for(var x=0;x<xs.size();x+=1) { Test.assert(xs[x]==v.p(185)); }
     return true;
 }
 (:test) class SceneClock { var hour=18; var min=8; var sec=32; }
@@ -238,11 +233,18 @@ import Toybox.Math;
             if(dc.texts[j][2].equals(names[i])) { label=dc.texts[j]; }
             if(dc.texts[j][2].equals(values[i])) { number=dc.texts[j]; }
         }
-        Test.assert(label!=null && number!=null && label[0]==v.p(213) && number[1]>label[1]);
+        Test.assert(label!=null && number!=null && label[0]==v.p(185) && number[0]==label[0]);
         var unit=v.valueParts(v.data.fieldValue(v.fields[i],null))[1];
-        var numberWidth=dc.getTextWidthInPixels(number[2],number[4]);
-        var unitWidth=unit.equals("")?0:v.p(2)+dc.getTextWidthInPixels(unit,v.unitFont);
-        Test.assert((number[0]+(numberWidth+unitWidth)/2-label[0]).abs()<=1);
+        if(!unit.equals("")) {
+            var unitX=number[0]+dc.getTextWidthInPixels(number[2],number[4])+v.p(2);
+            var unitY=v.p(86+i*50+23);
+            var foundUnit=false;
+            for(var k=0;k<dc.texts.size();k+=1) {
+                var t=dc.texts[k];
+                if(t[2].equals(unit) && t[0]==unitX && t[1]==unitY) { foundUnit=true; }
+            }
+            Test.assert(foundUnit);
+        }
         Test.assert(number[1]-label[1]==v.p(86+i*50+20)-v.p(86+i*50));
     }
     Test.assert(v.shortIcons[0]!=null && v.shortIcons[1]!=null);

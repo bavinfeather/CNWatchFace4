@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
-<iq:application id="9202baa617e7422784b936d8940da1c9" entry="FourthApp" name="@Strings.AppName" launcherIcon="@Drawables.LauncherIcon" type="watchface" minApiLevel="4.2.2" version="1.0.0">
+<iq:application id="9202baa617e7422784b936d8940da1c9" entry="FourthApp" name="@Strings.AppName" launcherIcon="@Drawables.LauncherIcon" type="watchface" minApiLevel="4.2.2" version="1.0.1">
 <iq:products>
 <iq:product id="fenix7s"/><iq:product id="fenix7spro"/>
 <iq:product id="fenix7"/><iq:product id="fenix7pro"/><iq:product id="fenix7pronowifi"/><iq:product id="fenix8solar47mm"/><iq:product id="fenix9prosolar47mm"/><iq:product id="fr255"/><iq:product id="fr255m"/><iq:product id="fr955"/>

@@ -1,5 +1,5 @@
 project.manifest = ../manifest.xml
 base.sourcePath = ../source;.
-base.resourcePath = ../resources;../resources-466
+base.resourcePath = ../resources;../resources-466;../resources-aod
 base.lang.zhs = ../resources-zhs
 base.excludeAnnotations = mip;night

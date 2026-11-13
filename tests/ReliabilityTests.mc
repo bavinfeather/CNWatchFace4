@@ -83,9 +83,9 @@ import Toybox.Weather;
     var clock=new SceneClock(); var date=Gregorian.info(Time.now(),Time.FORMAT_SHORT);
     clock.min=8; v.drawAod(first,clock,date);
     clock.min=9; v.drawAod(second,clock,date);
-    Test.assert(first.texts.size()==3 && second.texts.size()==3);
+    Test.assert(first.texts.size()==4 && second.texts.size()==4);
     // Current shared AOD moves its complete composition by one pixel.
-    for(var i=0;i<3;i+=1) {
+    for(var i=0;i<first.texts.size();i+=1) {
         Test.assert(second.texts[i][0]==first.texts[i][0]+1);
         Test.assert(second.texts[i][1]==first.texts[i][1]);
     }

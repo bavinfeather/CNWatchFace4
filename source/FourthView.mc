@@ -122,10 +122,12 @@ class FourthView extends WatchUi.WatchFace {
     function drawAod(dc, clock, date) {
         if (isAmoled()) {
             if (sharedAod == null) { sharedAod = new SharedAod(); }
-            var aodDate = options.enabled("ShowDate")?date.month.format("%02d") + "/" + date.day.format("%02d"):"";
+            var dateText = date.month.format("%02d") + "/" + date.day.format("%02d");
+            var aodDate = options.enabled("ShowDate") ? dateText : "";
             var ampm=options.amPm(clock);
             if(!ampm.equals("")) { aodDate=ampm+(aodDate.equals("")?"":" "+aodDate); }
-            var aodFields = battery == null ? ["--"] : [battery.toNumber().format("%d")+"%"];
+            var simple = SharedAodFields.setting("LowPowerStyle", 0) == 1;
+            var aodFields = SharedAodFields.collect(simple, [0, 5, 0], dateText, date.day_of_week, battery);
             sharedAod.draw(dc, clock.hour * 60 + clock.min, timeString(clock), aodDate, aodFields);
             return;
         }
@@ -155,7 +157,7 @@ class FourthView extends WatchUi.WatchFace {
         var low = isLowPower();
         if (!isAmoled()) {
             try { battery = System.getSystemStats().battery; } catch(e) {}
-        } else {
+        } else if (!low) {
             try {
                 var aodBattery = System.getSystemStats().battery;
                 if (aodBattery != null) { battery = aodBattery; }

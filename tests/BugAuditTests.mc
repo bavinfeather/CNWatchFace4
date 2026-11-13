@@ -194,9 +194,11 @@ import Toybox.Weather;
     Test.assert(again.polygons>20 && (again.skyRows>=233 || again.rectangles>=233) && v.data.metricsCalls==first);
     v.onEnterSleep(); v.data.seconds+=60;
     var asleep=new RecordingDc(); v.onUpdate(asleep);
-    Test.assert(v.data.metricsCalls==first && asleep.texts.size()==3 && asleep.polygons<20);
+    Test.assert(v.data.metricsCalls==first && asleep.texts.size()==4 && asleep.polygons<20);
     for(var t=0;t<asleep.texts.size();t+=1) { Test.assert(!asleep.texts[t][2].equals(":"+v.readClock().sec.format("%02d"))); }
     v.onExitSleep(); var awake=new RecordingDc(); v.onUpdate(awake);
-    Test.assert(awake.polygons>20 && v.data.metricsCalls==first+1);
+    Test.assert(awake.polygons>20 && v.data.metricsCalls==first);
+    var next=new RecordingDc(); v.onUpdate(next);
+    Test.assert(next.polygons>20 && v.data.metricsCalls==first+1);
     return true;
 }

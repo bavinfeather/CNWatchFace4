@@ -1,0 +1,6 @@
+<properties>
+    <property id="LowPowerStyle" type="number">0</property>
+    <property id="AodLeftField" type="number">0</property>
+    <property id="AodCenterField" type="number">5</property>
+    <property id="AodRightField" type="number">0</property>
+</properties>
